@@ -1,4 +1,4 @@
 Traceback (most recent call last):
-  File "c:/Data/Code/My_Tester_git/MyTester/Case/case_test/Project_exm/3_case_error_exm/2_test_ÓÃÀı´íÎóÊ¾Àı.py", line 14, in <module>
+  File "/root/MyTester_git/MyTester/Case/case_test/Project_exm/3_case_error_exm/2_test_ç”¨ä¾‹é”™è¯¯ç¤ºä¾‹.py", line 14, in <module>
     public.make_dir('/', 'test_path')
 TypeError: make_dir() missing 1 required positional argument: 'is_assert'
