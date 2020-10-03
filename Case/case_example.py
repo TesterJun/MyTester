@@ -1,6 +1,4 @@
-import Public_Keywords
-
-public = Public_Keywords
+import default_keywords as public
 
 # ============================
 public.setup()
