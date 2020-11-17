@@ -9,9 +9,9 @@ public.setup()
 public.step()
 # ============================
 
-lol.orderSuccess('lol_obj', 'ORDER_ID', '', is_assert='2')
-lol.orderSuccess('lol_obj', 'ORDER_ID', 'S_STR', is_assert='2')
-lol.orderSuccess('lol_obj', 'ORDER_ID', 'NO_EXIST_TIMESTR', is_assert='2')
+lol.orderSuccess('lol_obj', 'ORDER_06', '', is_assert='2')
+lol.orderSuccess('lol_obj', 'ORDER_06', 'S_STR_01', is_assert='2')
+lol.orderSuccess('lol_obj', 'ORDER_06', 'TIME_STR_02', is_assert='2')
 
 # ============================
 public.teardown()

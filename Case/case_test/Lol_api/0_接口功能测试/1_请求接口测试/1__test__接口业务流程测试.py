@@ -9,13 +9,25 @@ public.setup()
 public.step()
 # ============================
 
-lol.getCourseInfo('lol_obj', 'COURSE_1')
-lol.getCourseSaleStatus('lol_obj', 'COURSE_1')
-lol.canBuyCourse('lol_obj', 'COURSE_1', 'MOBILE_1')
-lol.orderCreate('lol_obj', 'COURSE_1', 'MOBILE_1', '123456789012345', 'TIME_STR_1', 'jun', '18614032279', '北京', '北京', '门头沟', '测试地址')
-lol.orderCancel('lol_obj', '123456789012345')
+lol.getCourseInfo('lol_obj', 'COURSE_06')
+lol.getCourseSaleStatus('lol_obj', 'COURSE_06')
+lol.canBuyCourse('lol_obj', 'COURSE_06', 'MOBILE_01')
+lol.orderCreate(
+    'lol_obj', 
+    'COURSE_06', 
+    'MOBILE_01', 
+    'ORDER_01', 
+    'TIME_STR_01', 
+    'ADDRESS_NAME', 
+    'ADDRESS_MOBILE', 
+    'ADDRESS_PROVINCE', 
+    'ADDRESS_CITY', 
+    'ADDRESS_AREA', 
+    'ADDRESS_ADDRESS'
+)
+lol.orderCancel('lol_obj', 'ORDER_01')
 
 # ============================
 public.teardown()
 # ============================
-lol.orderCancel('lol_obj', '123456789012345')
+lol.orderCancel('lol_obj', 'ORDER_01')

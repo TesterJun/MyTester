@@ -9,9 +9,9 @@ public.setup()
 public.step()
 # ============================
 
-lol.getCourseInfo('lol_obj', 'COURSE_ID', method='', is_assert='2')
-lol.getCourseInfo('lol_obj', 'COURSE_ID', method='S_STR', is_assert='2')
-lol.getCourseInfo('lol_obj', 'COURSE_ID', method='NO_EXIST_METHOD', is_assert='2')
+lol.getCourseInfo('lol_obj', 'COURSE_06', method='', is_assert='2')
+lol.getCourseInfo('lol_obj', 'COURSE_06', method='S_STR_01', is_assert='2')
+lol.getCourseInfo('lol_obj', 'COURSE_06', method='ERROR_KEY_01', is_assert='2')
 
 # ============================
 public.teardown()

@@ -9,7 +9,7 @@ public.setup()
 public.step()
 # ============================
 
-lol.getCourseInfo('lol_obj', 'NO_TEST_ID_3')
+lol.getCourseInfo('lol_obj', 'COURSE_02')
 
 # ============================
 public.teardown()

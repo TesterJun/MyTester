@@ -9,10 +9,10 @@ public.setup()
 public.step()
 # ============================
 
-lol.orderCreate('lol_obj', 'COURSE_3', 'MOBILE_1', 'ORDER_2', 'TIME_STR_1', 'jun', 'MOBILE_1', '北京', '北京', '门头沟', '测试地址')
-lol.orderCreate('lol_obj', 'COURSE_3', 'MOBILE_1', 'ORDER_2', 'TIME_STR_1', 'jun', 'MOBILE_1', '北京', '北京', '门头沟', '测试地址', is_assert='2')
+lol.orderCreate('lol_obj', 'COURSE_06', 'MOBILE_01', 'ORDER_01', 'TIME_STR_01', 'ADDRESS_NAME', 'ADDRESS_MOBILE', 'ADDRESS_PROVINCE', 'ADDRESS_CITY', 'ADDRESS_AREA', 'ADDRESS_ADDRESS')
+lol.orderCreate('lol_obj', 'COURSE_06', 'MOBILE_01', 'ORDER_01', 'TIME_STR_01', 'ADDRESS_NAME', 'ADDRESS_MOBILE', 'ADDRESS_PROVINCE', 'ADDRESS_CITY', 'ADDRESS_AREA', 'ADDRESS_ADDRESS', is_assert='2')
 
 # ============================
 public.teardown()
 # ============================
-lol.orderCancel('lol_obj', 'ORDER_2')
+lol.orderCancel('lol_obj', 'ORDER_01')

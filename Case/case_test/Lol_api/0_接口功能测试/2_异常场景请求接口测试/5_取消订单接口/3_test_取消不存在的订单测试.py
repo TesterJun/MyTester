@@ -9,9 +9,9 @@ public.setup()
 public.step()
 # ============================
 
-lol.orderCancel('lol_obj', '123456789099999', is_assert='2')
+lol.orderCancel('lol_obj', 'ORDER_03', is_assert='2')
 
 # ============================
 public.teardown()
 # ============================
-lol.orderCancel('lol_obj', '123456789012345')
+lol.orderCancel('lol_obj', 'ORDER_03')

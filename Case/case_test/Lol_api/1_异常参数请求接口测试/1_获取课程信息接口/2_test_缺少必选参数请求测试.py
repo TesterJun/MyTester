@@ -9,7 +9,7 @@ public.setup()
 public.step()
 # ============================
 
-lol.getCourseInfo('lol_obj', 'COURSE_ID', cancel_key='bizData', cancel_data_key='courseId', is_assert='2')
+lol.getCourseInfo('lol_obj', 'COURSE_06', cancel_key='bizData', cancel_data_key='courseId', is_assert='2')
 
 # ============================
 public.teardown()

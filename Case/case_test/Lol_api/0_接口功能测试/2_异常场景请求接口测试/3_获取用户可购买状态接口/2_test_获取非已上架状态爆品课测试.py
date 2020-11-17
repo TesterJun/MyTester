@@ -9,7 +9,7 @@ public.setup()
 public.step()
 # ============================
 
-lol.canBuyCourse('lol_obj', 'NO_TEST_ID_3', 'MOBILE_1', is_assert='2')
+lol.canBuyCourse('lol_obj', 'COURSE_02', 'MOBILE_01', is_assert='2')
 
 # ============================
 public.teardown()

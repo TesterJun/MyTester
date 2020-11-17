@@ -9,7 +9,7 @@ public.setup()
 public.step()
 # ============================
 
-lol.getCourseSaleStatus('lol_obj', 'NO_TEST_ID_4', is_assert='2')
+lol.getCourseSaleStatus('lol_obj', 'COURSE_05', is_assert='2')
 
 # ============================
 public.teardown()

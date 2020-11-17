@@ -11,10 +11,10 @@ public.step()
 
 lol.orderCreate(
     'lol_obj', 
-    'COURSE_ID', 
-    'USER_MOBILE', 
+    'COURSE_06', 
+    'MOBILE_07', 
     '', 
-    'TIME_STR_1',
+    'TIME_STR_01',
     'ADDRESS_NAME',
     'ADDRESS_MOBILE',
     'ADDRESS_PROVINCE',
@@ -27,10 +27,10 @@ lol.orderCreate(
 
 lol.orderCreate(
     'lol_obj', 
-    'COURSE_ID', 
-    'USER_MOBILE', 
-    'S_STR', 
-    'TIME_STR_1',
+    'COURSE_06', 
+    'MOBILE_07', 
+    'STR_01', 
+    'TIME_STR_01',
     'ADDRESS_NAME',
     'ADDRESS_MOBILE',
     'ADDRESS_PROVINCE',
@@ -43,10 +43,10 @@ lol.orderCreate(
 
 lol.orderCreate(
     'lol_obj', 
-    'COURSE_ID', 
-    'USER_MOBILE', 
-    'NO_EXIST_COURSEID', 
-    'TIME_STR_1',
+    'COURSE_06', 
+    'MOBILE_07', 
+    'ORDER_05', 
+    'TIME_STR_01',
     'ADDRESS_NAME',
     'ADDRESS_MOBILE',
     'ADDRESS_PROVINCE',
@@ -60,4 +60,3 @@ lol.orderCreate(
 # ============================
 public.teardown()
 # ============================
-lol.orderCancel('lol_obj', 'ORDER_ID')
