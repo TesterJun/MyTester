@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "D:/Code/MyTester_Framework/MyTester/Case/case_test/Project_exm/3_case_error_exm/2_test_ÓÃÀı´íÎóÊ¾Àı.py", line 11, in <module>
-    public.make_file('dir_name_1', 'file_name_1', '')
-TypeError: make_file() missing 1 required positional argument: 'is_assert'
